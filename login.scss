@@ -1,0 +1,119 @@
+.login {
+  height: 100vh;
+  background-color: #61ce70;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .card {
+    width: 50%;
+    display: flex;
+    background-color: white;
+    // border-top-left-radius: 0px;
+    // border-top-right-radius: 30px;
+    border-radius: 0px 50px 0px;
+    min-height: 400px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    .left {
+      flex: 1;
+      background: linear-gradient(
+          rgba(24, 129, 49, 0.568),
+          rgba(24, 129, 49, 0.577)
+        ),
+        url(https://futureinstitutions.org/wp-content/uploads/2022/04/Main-Gallery-03.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-bottom-left-radius: 50px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      color: white;
+
+      h1 {
+        font-size: 35px;
+        line-height: 40px;
+      }
+      span {
+        background: linear-gradient(90deg, #00dbde, #fb00ffde);
+        font-family: sans-serif;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      p {
+        padding: 0%;
+        color: black;
+      }
+      h5 {
+        font-weight: bold;
+        color: rgb(251, 2, 2);
+      }
+
+      button {
+        width: 50%;
+        padding: 10px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        font-size: large;
+        font-weight: bold;
+        background-color: white;
+        color: #0a170c;
+        cursor: pointer;
+      }
+    }
+    .right {
+      flex: 1;
+      // padding: 0px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      overflow: hidden;
+      justify-content: center;
+      align-items: center;
+      margin-top: -70px;
+      h1 {
+        color: rgb(15, 14, 14);
+        margin-top: -50px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        outline: none;
+        justify-content: center;
+        align-items: center;
+        
+
+        h1 {
+          background: linear-gradient(90deg, #00dbde, #fb00ffde);
+          font-family: sans-serif;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          fill: none;
+        }
+
+        input {
+          border: none;
+          border-bottom: 2px solid rgb(11, 29, 13);
+          padding: 20px 10px;
+          text-decoration-line: none;
+          outline: none;
+        }
+        button {
+          width: 50%;
+          padding: 15px;
+          border: none;
+          background-color: #61ce70;
+          border-bottom-left-radius: 20px;
+          border-top-right-radius: 20px;
+          font-size: large;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
