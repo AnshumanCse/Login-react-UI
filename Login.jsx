@@ -9,9 +9,11 @@ const Login = () => {
             Welcome <span>FUTURIANS</span>
           </h1>
           <p>
+    
             Hey Futurians!! This is our official social media platform, Where we
             can do a lot of fun like Post, Stories etc. But it should be related
             to our college.
+    
           </p>
           <h5>If You don't have an account?</h5>
           <button className="btn"> Register</button>
