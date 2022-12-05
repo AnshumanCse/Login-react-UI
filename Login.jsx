@@ -13,10 +13,10 @@ const Login = () => {
             Hey Futurians!! This is our official social media platform, Where we
             can do a lot of fun like Post, Stories etc. But it should be related
             to our college.
-    
-          </p>
+
+</p>
           <h5>If You don't have an account?</h5>
-          <button className="btn"> Register</button>
+          <button className="btn" Id="btnn"> Register</button>
         </div>
         <div className="right">
           <img className="img" src={Logo} alt="Logo" height={200} />
