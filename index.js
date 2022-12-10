@@ -9,5 +9,7 @@ root.render(
   
     <App />
   <Navbar/>
+  <div>
+  <div/>
   </React.StrictMode>
 );
