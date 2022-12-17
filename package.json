@@ -12,6 +12,7 @@
     "sass": "^1.55.0",
     "scss": "^0.2.4",
     "web-vitals": "^2.1.4"
+    "icons": "15.7.1" ;
   },
   "scripts": {
     "start": "react-scripts start",
